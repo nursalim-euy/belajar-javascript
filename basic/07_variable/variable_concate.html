@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>JavaScript Variables</h1>
+
+    <p>The result of adding "John" + " " + "Doe" is:</p>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+
+    <script>
+      let x = "John" + " " + "Doe";
+      document.getElementById("demo").innerHTML = x;
+
+      let y = "5" + 2 + 3;
+      document.getElementById("demo2").innerHTML = y;
+
+      let z = 2 + 3 + "5";
+      document.getElementById("demo3").innerHTML = z;
+    </script>
+  </body>
+</html>
